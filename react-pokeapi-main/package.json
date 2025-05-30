@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@capacitor/android": "^7.2.0",
+    "@capacitor/assets": "^3.0.5",
     "@capacitor/core": "^7.2.0",
     "@react-navigation/native": "^7.0.19",
     "@supabase/supabase-js": "^2.49.8",
