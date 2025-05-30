@@ -1,3 +1,4 @@
+import './style.css'
 function Filtro({ onTipoChange }) {
     const tipos = [
       "All",
