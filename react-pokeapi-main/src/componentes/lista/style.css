@@ -1,12 +1,77 @@
-.c-lista{
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+.c-lista {
     display: flex;
-    gap: 10px;
+    gap: 12px;
     flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f5f5f5, #d0e0f0);
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: 'Orbitron', sans-serif;
 }
 
-.c-lista-pokemon{
-    background-color: aliceblue;
-    width: calc(50% - 5px);
-    padding: 10px;
+.c-lista-pokemon {
+    background: linear-gradient(135deg, #f8f8ff, #e0f7ff);
+    border: 2px solid #ffcb05;
+    border-radius: 16px;
+    width: calc(45% - 10px);
+    padding: 16px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    font-family: 'Verdana', sans-serif;
 }
+
+.c-lista-pokemon:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    background: linear-gradient(135deg, #fffacd, #f5f5dc);
+    border-color: #3b4cca; /* azul Pokémon */
+}
+
+.c-lista-pokemon h3 {
+    color: #3b4cca;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.c-lista-pokemon img {
+    width: 100px;
+    height: auto;
+    margin: 10px 0;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  .c-buscador {
+    display: block;
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px 14px;
+    font-size: 1rem;
+    border: 2px solid #3b4cca;
+    border-radius: 12px;
+    outline: none;
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f0f8ff;
+    color: #333;
+  }
+  
+  .c-buscador::placeholder {
+    color: #999;
+    font-style: italic;
+  }
+  
+  .c-buscador:focus {
+    border-color: #ffcb05;
+    box-shadow: 0 0 10px #ffcb05;
+  }
+  

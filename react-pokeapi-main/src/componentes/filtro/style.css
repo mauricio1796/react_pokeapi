@@ -1,0 +1,35 @@
+.c-filtro {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 10px;
+    background: linear-gradient(to right, #f0f8ff, #e6f7ff);
+    border: 3px solid #3b4cca;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .c-filtro button {
+    padding: 8px 12px;
+    border: 2px solid #ffcb05;
+    background-color: white;
+    color: #3b4cca;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-transform: capitalize;
+  }
+  
+  .c-filtro button:hover {
+    background-color: #ffcb05;
+    color: #2a75bb;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
